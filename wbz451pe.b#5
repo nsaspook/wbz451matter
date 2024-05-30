@@ -352,14 +352,6 @@
 </polygon>
 <text x="-3.2712" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Name</text>
 <text x="-1.7288" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Value</text>
-<smd name="41" x="-1.95" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
-<smd name="42" x="-0.68" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
-<smd name="43" x="0.59" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
-<smd name="44" x="0.59" y="-3.35" dx="0.889" dy="0.889" layer="1"/>
-<smd name="45" x="0.59" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
-<smd name="46" x="-0.68" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
-<smd name="47" x="-1.95" y="-3.35" dx="0.889" dy="0.889" layer="1"/>
-<smd name="48" x="-1.95" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
 </package>
 </packages>
 </library>
@@ -556,15 +548,24 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="2024-05-29_22-27-45_Library" package="WBZ451_MCH" value="WBZ451PE-IWBZ451_MCH" x="26.67" y="39.37" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="WBZ451PE-I" x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Microchip" x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.3988" y="38.735" size="1.27" layer="27" ratio="6"/>
-<attribute name="VALUE" x="24.9412" y="38.735" size="1.27" layer="27" ratio="6"/>
+<element name="U1" library="2024-05-29_22-27-45_Library" package="WBZ451_MCH" value="WBZ451PE-IWBZ451_MCH" x="27.94" y="39.37" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="62.23" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WBZ451PE-I" x="62.23" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Microchip" x="62.23" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="27.2088" y="42.545" size="1.27" layer="27" ratio="6"/>
+<attribute name="VALUE" x="18.5912" y="51.435" size="1.27" layer="27" ratio="6"/>
 </element>
 </elements>
 <signals>
+<signal name="VDD_A">
+<contactref element="U1" pad="7"/>
+</signal>
+<signal name="VDD_2">
+<contactref element="U1" pad="27"/>
+</signal>
+<signal name="VDD">
+<contactref element="U1" pad="28"/>
+</signal>
 <signal name="GND">
 <polygon width="0.1524" layer="1">
 <vertex x="11.43" y="43.18"/>
@@ -591,24 +592,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="11"/>
 <contactref element="U1" pad="19"/>
 <contactref element="U1" pad="26"/>
-<contactref element="U1" pad="43"/>
 <contactref element="U1" pad="40"/>
-<contactref element="U1" pad="41"/>
-<contactref element="U1" pad="46"/>
-<contactref element="U1" pad="47"/>
-<contactref element="U1" pad="44"/>
-<contactref element="U1" pad="42"/>
-<contactref element="U1" pad="48"/>
-<contactref element="U1" pad="45"/>
-</signal>
-<signal name="VDD_A">
-<contactref element="U1" pad="7"/>
-</signal>
-<signal name="VDD_2">
-<contactref element="U1" pad="27"/>
-</signal>
-<signal name="VDD">
-<contactref element="U1" pad="28"/>
+<wire x1="26.94" y1="29.37" x2="27.26" y2="36.02" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -484,6 +484,50 @@
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="GND_2"/>
+<wire x1="60.96" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="55.88" y="66.04" size="1.778" layer="95"/>
+<junction x="60.96" y="66.04"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="GND_3"/>
+<wire x1="60.96" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="55.88" y="63.5" size="1.778" layer="95"/>
+<junction x="60.96" y="63.5"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="GND_4"/>
+<wire x1="60.96" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="55.88" y="48.26" size="1.778" layer="95"/>
+<junction x="60.96" y="48.26"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="GND_5"/>
+<wire x1="60.96" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<label x="55.88" y="40.64" size="1.778" layer="95"/>
+<junction x="60.96" y="40.64"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="GND_6"/>
+<wire x1="60.96" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
+<label x="55.88" y="20.32" size="1.778" layer="95"/>
+<junction x="60.96" y="20.32"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="GND"/>
+<wire x1="96.52" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<label x="101.6" y="30.48" size="1.778" layer="95"/>
+<junction x="96.52" y="30.48"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="EGND"/>
+<wire x1="96.52" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
+<label x="101.6" y="66.04" size="1.778" layer="95"/>
+<junction x="96.52" y="66.04"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
