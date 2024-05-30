@@ -9,7 +9,7 @@
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -352,6 +352,14 @@
 </polygon>
 <text x="-3.2712" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Name</text>
 <text x="-1.7288" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Value</text>
+<smd name="41" x="-1.95" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
+<smd name="42" x="-0.68" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
+<smd name="43" x="0.59" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
+<smd name="44" x="0.59" y="-3.35" dx="0.889" dy="0.889" layer="1"/>
+<smd name="45" x="0.59" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
+<smd name="46" x="-0.68" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
+<smd name="47" x="-1.95" y="-3.35" dx="0.889" dy="0.889" layer="1"/>
+<smd name="48" x="-1.95" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
 </package>
 </packages>
 </library>
@@ -364,7 +372,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -379,7 +387,7 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
-<param name="layerSetup" value="(1*16)"/>
+<param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
@@ -459,7 +467,7 @@ design rules under a new name.</description>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="a"/>
-<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.2" value="a"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
 <param name="PrefDir.5" value="0"/>
@@ -472,7 +480,7 @@ design rules under a new name.</description>
 <param name="PrefDir.12" value="0"/>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
-<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.15" value="a"/>
 <param name="PrefDir.16" value="a"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
@@ -548,15 +556,51 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="2024-05-29_22-27-45_Library" package="WBZ451_MCH" value="WBZ451PE-IWBZ451_MCH" x="27.94" y="39.37" smashed="yes">
-<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="62.23" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="WBZ451PE-I" x="62.23" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="MFR_NAME" value="Microchip" x="62.23" y="24.13" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.2088" y="42.545" size="1.27" layer="27" ratio="6"/>
-<attribute name="VALUE" x="18.5912" y="51.435" size="1.27" layer="27" ratio="6"/>
+<element name="U1" library="2024-05-29_22-27-45_Library" package="WBZ451_MCH" value="WBZ451PE-IWBZ451_MCH" x="26.67" y="39.37" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="WBZ451PE-I" x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Microchip" x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="23.3988" y="38.735" size="1.27" layer="27" ratio="6"/>
+<attribute name="VALUE" x="24.9412" y="38.735" size="1.27" layer="27" ratio="6"/>
 </element>
 </elements>
 <signals>
+<signal name="GND">
+<polygon width="0.1524" layer="1">
+<vertex x="11.43" y="43.18"/>
+<vertex x="43.18" y="43.18"/>
+<vertex x="43.18" y="22.86"/>
+<vertex x="12.7" y="22.86"/>
+<vertex x="11.43" y="22.86"/>
+</polygon>
+<polygon width="0.1524" layer="2">
+<vertex x="1.27" y="43.18"/>
+<vertex x="157.48" y="43.18"/>
+<vertex x="157.48" y="1.27"/>
+<vertex x="1.27" y="1.27"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="1.27" y="43.18"/>
+<vertex x="157.48" y="43.18"/>
+<vertex x="157.48" y="1.27"/>
+<vertex x="1.27" y="1.27"/>
+</polygon>
+<contactref element="U1" pad="1"/>
+<contactref element="U1" pad="2"/>
+<contactref element="U1" pad="8"/>
+<contactref element="U1" pad="11"/>
+<contactref element="U1" pad="19"/>
+<contactref element="U1" pad="26"/>
+<contactref element="U1" pad="43"/>
+<contactref element="U1" pad="40"/>
+<contactref element="U1" pad="41"/>
+<contactref element="U1" pad="46"/>
+<contactref element="U1" pad="47"/>
+<contactref element="U1" pad="44"/>
+<contactref element="U1" pad="42"/>
+<contactref element="U1" pad="48"/>
+<contactref element="U1" pad="45"/>
+</signal>
 <signal name="VDD_A">
 <contactref element="U1" pad="7"/>
 </signal>

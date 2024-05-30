@@ -346,6 +346,14 @@
 </polygon>
 <text x="-3.2712" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Name</text>
 <text x="-1.7288" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Value</text>
+<smd name="41" x="-1.95" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
+<smd name="42" x="-0.68" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
+<smd name="43" x="0.59" y="-2.08" dx="0.889" dy="0.889" layer="1"/>
+<smd name="44" x="0.59" y="-3.35" dx="0.889" dy="0.889" layer="1"/>
+<smd name="45" x="0.59" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
+<smd name="46" x="-0.68" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
+<smd name="47" x="-1.95" y="-3.35" dx="0.889" dy="0.889" layer="1"/>
+<smd name="48" x="-1.95" y="-4.62" dx="0.889" dy="0.889" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -406,7 +414,7 @@
 <devices>
 <device name="WBZ451_MCH" package="WBZ451_MCH">
 <connects>
-<connect gate="A" pin="EGND" pad="40"/>
+<connect gate="A" pin="EGND" pad="40 41 42 43 44 45 46 47 48"/>
 <connect gate="A" pin="GND" pad="26"/>
 <connect gate="A" pin="GND_2" pad="1"/>
 <connect gate="A" pin="GND_3" pad="2"/>
@@ -484,6 +492,50 @@
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<wire x1="60.96" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="55.88" y="66.04" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="GND_2"/>
+<junction x="60.96" y="66.04"/>
+</segment>
+<segment>
+<wire x1="60.96" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="55.88" y="63.5" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="GND_3"/>
+<junction x="60.96" y="63.5"/>
+</segment>
+<segment>
+<wire x1="60.96" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="55.88" y="48.26" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="GND_4"/>
+<junction x="60.96" y="48.26"/>
+</segment>
+<segment>
+<wire x1="60.96" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<label x="55.88" y="40.64" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="GND_5"/>
+<junction x="60.96" y="40.64"/>
+</segment>
+<segment>
+<wire x1="60.96" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
+<label x="55.88" y="20.32" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="GND_6"/>
+<junction x="60.96" y="20.32"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<label x="101.6" y="30.48" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="GND"/>
+<junction x="96.52" y="30.48"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
+<label x="101.6" y="66.04" size="1.778" layer="95"/>
+<pinref part="U1" gate="A" pin="EGND"/>
+<junction x="96.52" y="66.04"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

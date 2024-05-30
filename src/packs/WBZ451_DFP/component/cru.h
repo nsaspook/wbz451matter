@@ -1,26 +1,23 @@
 /*
  * Component description for CRU
  *
- * Copyright (c) 2022 Microchip Technology Inc. and its subsidiaries.
+ * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
  *
- * Subject to your compliance with these terms, you may use Microchip software and any derivatives
- * exclusively with Microchip products. It is your responsibility to comply with third party license
- * terms applicable to your use of third party software (including open source software) that may
- * accompany Microchip software.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  *
- * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY,
- * APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND
- * FITNESS FOR A PARTICULAR PURPOSE.
+ *   http://www.apache.org/licenses/LICENSE-2.0
  *
- * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL
- * LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF
- * MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE FULLEST EXTENT
- * ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT
- * EXCEED THE AMOUNT OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  *
  */
 
-/* file generated from device description version 2022-02-28T16:51:20Z */
+/* file generated from device description file (ATDF) version 2023-10-17T09:04:59Z */
 #ifndef _BZ45_CRU_COMPONENT_H_
 #define _BZ45_CRU_COMPONENT_H_
 
@@ -1160,6 +1157,24 @@
 #define CRU_PB1DIV_Msk                        _UINT32_(0x0000887F)                                 /* (CRU_PB1DIV) Register Mask  */
 
 
+/* -------- CRU_PB1DIVCLR : (CRU Offset: 0x134) (R/W 32)  -------- */
+#define CRU_PB1DIVCLR_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB1DIVCLR)   Reset Value */
+
+#define CRU_PB1DIVCLR_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB1DIVCLR) Register Mask  */
+
+
+/* -------- CRU_PB1DIVSET : (CRU Offset: 0x138) (R/W 32)  -------- */
+#define CRU_PB1DIVSET_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB1DIVSET)   Reset Value */
+
+#define CRU_PB1DIVSET_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB1DIVSET) Register Mask  */
+
+
+/* -------- CRU_PB1DIVINV : (CRU Offset: 0x13C) (R/W 32)  -------- */
+#define CRU_PB1DIVINV_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB1DIVINV)   Reset Value */
+
+#define CRU_PB1DIVINV_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB1DIVINV) Register Mask  */
+
+
 /* -------- CRU_PB2DIV : (CRU Offset: 0x140) (R/W 32) PB2 CLOCK DIVISOR CONTROL REGISTER -------- */
 #define CRU_PB2DIV_RESETVALUE                 _UINT32_(0x8801)                                     /*  (CRU_PB2DIV) PB2 CLOCK DIVISOR CONTROL REGISTER  Reset Value */
 
@@ -1197,6 +1212,24 @@
 #define CRU_PB2DIV_Msk                        _UINT32_(0x0000887F)                                 /* (CRU_PB2DIV) Register Mask  */
 
 
+/* -------- CRU_PB2DIVCLR : (CRU Offset: 0x144) (R/W 32)  -------- */
+#define CRU_PB2DIVCLR_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB2DIVCLR)   Reset Value */
+
+#define CRU_PB2DIVCLR_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB2DIVCLR) Register Mask  */
+
+
+/* -------- CRU_PB2DIVSET : (CRU Offset: 0x148) (R/W 32)  -------- */
+#define CRU_PB2DIVSET_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB2DIVSET)   Reset Value */
+
+#define CRU_PB2DIVSET_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB2DIVSET) Register Mask  */
+
+
+/* -------- CRU_PB2DIVINV : (CRU Offset: 0x14C) (R/W 32)  -------- */
+#define CRU_PB2DIVINV_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB2DIVINV)   Reset Value */
+
+#define CRU_PB2DIVINV_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB2DIVINV) Register Mask  */
+
+
 /* -------- CRU_PB3DIV : (CRU Offset: 0x150) (R/W 32) PB3 CLOCK DIVISOR CONTROL REGISTER -------- */
 #define CRU_PB3DIV_RESETVALUE                 _UINT32_(0x8801)                                     /*  (CRU_PB3DIV) PB3 CLOCK DIVISOR CONTROL REGISTER  Reset Value */
 
@@ -1232,42 +1265,6 @@
 #define CRU_PB3DIV_PBDIVON_PB3ON              (CRU_PB3DIV_PBDIVON_PB3ON_Val << CRU_PB3DIV_PBDIVON_Pos) /* (CRU_PB3DIV) PB3 Output clock is enabled Position  */
 #define CRU_PB3DIV_PBDIVON_PB3OFF             (CRU_PB3DIV_PBDIVON_PB3OFF_Val << CRU_PB3DIV_PBDIVON_Pos) /* (CRU_PB3DIV) PB3 Output clock is disabled Position  */
 #define CRU_PB3DIV_Msk                        _UINT32_(0x0000887F)                                 /* (CRU_PB3DIV) Register Mask  */
-
-
-/* -------- CRU_PB1DIVCLR : (CRU Offset: 0x134) (R/W 32)  -------- */
-#define CRU_PB1DIVCLR_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB1DIVCLR)   Reset Value */
-
-#define CRU_PB1DIVCLR_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB1DIVCLR) Register Mask  */
-
-
-/* -------- CRU_PB1DIVSET : (CRU Offset: 0x138) (R/W 32)  -------- */
-#define CRU_PB1DIVSET_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB1DIVSET)   Reset Value */
-
-#define CRU_PB1DIVSET_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB1DIVSET) Register Mask  */
-
-
-/* -------- CRU_PB1DIVINV : (CRU Offset: 0x13C) (R/W 32)  -------- */
-#define CRU_PB1DIVINV_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB1DIVINV)   Reset Value */
-
-#define CRU_PB1DIVINV_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB1DIVINV) Register Mask  */
-
-
-/* -------- CRU_PB2DIVCLR : (CRU Offset: 0x144) (R/W 32)  -------- */
-#define CRU_PB2DIVCLR_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB2DIVCLR)   Reset Value */
-
-#define CRU_PB2DIVCLR_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB2DIVCLR) Register Mask  */
-
-
-/* -------- CRU_PB2DIVSET : (CRU Offset: 0x148) (R/W 32)  -------- */
-#define CRU_PB2DIVSET_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB2DIVSET)   Reset Value */
-
-#define CRU_PB2DIVSET_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB2DIVSET) Register Mask  */
-
-
-/* -------- CRU_PB2DIVINV : (CRU Offset: 0x14C) (R/W 32)  -------- */
-#define CRU_PB2DIVINV_RESETVALUE              _UINT32_(0x00)                                       /*  (CRU_PB2DIVINV)   Reset Value */
-
-#define CRU_PB2DIVINV_Msk                     _UINT32_(0x00000000)                                 /* (CRU_PB2DIVINV) Register Mask  */
 
 
 /* -------- CRU_PB3DIVCLR : (CRU Offset: 0x154) (R/W 32)  -------- */
@@ -1590,14 +1587,14 @@
 #define CRU_REFO6TRIMSET_REG_OFST      _UINT32_(0x128)     /* (CRU_REFO6TRIMSET)  Offset */
 #define CRU_REFO6TRIMINV_REG_OFST      _UINT32_(0x12C)     /* (CRU_REFO6TRIMINV)  Offset */
 #define CRU_PB1DIV_REG_OFST            _UINT32_(0x130)     /* (CRU_PB1DIV) PB1 CLOCK DIVISOR CONTROL REGISTER Offset */
-#define CRU_PB2DIV_REG_OFST            _UINT32_(0x140)     /* (CRU_PB2DIV) PB2 CLOCK DIVISOR CONTROL REGISTER Offset */
-#define CRU_PB3DIV_REG_OFST            _UINT32_(0x150)     /* (CRU_PB3DIV) PB3 CLOCK DIVISOR CONTROL REGISTER Offset */
 #define CRU_PB1DIVCLR_REG_OFST         _UINT32_(0x134)     /* (CRU_PB1DIVCLR)  Offset */
 #define CRU_PB1DIVSET_REG_OFST         _UINT32_(0x138)     /* (CRU_PB1DIVSET)  Offset */
 #define CRU_PB1DIVINV_REG_OFST         _UINT32_(0x13C)     /* (CRU_PB1DIVINV)  Offset */
+#define CRU_PB2DIV_REG_OFST            _UINT32_(0x140)     /* (CRU_PB2DIV) PB2 CLOCK DIVISOR CONTROL REGISTER Offset */
 #define CRU_PB2DIVCLR_REG_OFST         _UINT32_(0x144)     /* (CRU_PB2DIVCLR)  Offset */
 #define CRU_PB2DIVSET_REG_OFST         _UINT32_(0x148)     /* (CRU_PB2DIVSET)  Offset */
 #define CRU_PB2DIVINV_REG_OFST         _UINT32_(0x14C)     /* (CRU_PB2DIVINV)  Offset */
+#define CRU_PB3DIV_REG_OFST            _UINT32_(0x150)     /* (CRU_PB3DIV) PB3 CLOCK DIVISOR CONTROL REGISTER Offset */
 #define CRU_PB3DIVCLR_REG_OFST         _UINT32_(0x154)     /* (CRU_PB3DIVCLR)  Offset */
 #define CRU_PB3DIVSET_REG_OFST         _UINT32_(0x158)     /* (CRU_PB3DIVSET)  Offset */
 #define CRU_PB3DIVINV_REG_OFST         _UINT32_(0x15C)     /* (CRU_PB3DIVINV)  Offset */
