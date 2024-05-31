@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=SST26VF064B-104I/MF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=3.1
+Released=2017-01-28 17:38:35
+Downloaded=2024-05-31 22:25:12
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SST26VF064B_104I_MF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "SST26VF064B-104I/MF" (!) = "", "SON127P600X500X80-9N-D", "Small Outline No-lead", "579-ST26VF064B104IMF", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/SST26VF064B-104I-MF?qs=wzzOUr4NhYqR1%252B6K2JaweQ%3D%3D", "SST26VF064B-104I/MF, SPI Split Gate Flash Memory, 8M x 8 bit 64Mbit, 3ns, 2.7  3.6 V, 8-Pin, WDFN", "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561262", "0.8 mm"
+END_PART
+
+END.

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "EHF-105-01-XX-D-SM-LC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "EHF-105-01-XX-D-SM-LC")
+        (spec "default")
+    )
+)

@@ -1,0 +1,16 @@
+.SST26VF064B-104I_MF :1 ;SST26VF064B-104I/MF, SPI Split Gate Flash Memory, 8M x 8 bit 64Mbit, 3ns, 2.7  3.6 V, 8-Pin, WDFN
+SON127P600X500X80-9N-D
+*STM IC
+*NGS
+*PLB 1="CE#" 2="SO/SIO1" 3="WP#/SIO2" 4="VSS" 5="SI/SIO0" 6="SCK" 7="HOLD/SIO3" 8="VDD" 9="EP"
+*MXP 9
+*DFN SST26VF064B-104I_MF
+~!Mouser Part Number (579-ST26VF064B104IMF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/SST26VF064B-104I-MF?qs=wzzOUr4NhYqR1%252B6K2JaweQ%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (SST26VF064B-104I/MF)
+~!Link Datasheet (http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561262)
+~!Height (0.8mm)
+~!3D_Model (SST26VF064B-104I_MF)
+SST26VF064B-104I_MF
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

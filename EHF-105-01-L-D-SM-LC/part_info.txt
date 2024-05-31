@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=EHF-105-01-L-D-SM-LC
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=2.1
+Released=2020-03-26 12:57:57
+Downloaded=2024-05-31 17:21:38
+3D=N

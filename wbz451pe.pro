@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /fred/matterwbz451pe/wbz451pe.brd
 
-Start at      : 14:58:57 (5/30/24)
-End at        : 14:59:12 (5/30/24)
-Elapsed time  : 00:00:12
+Start at      : 16:20:08 (5/31/24)
+End at        : 16:21:05 (5/31/24)
+Elapsed time  : 00:00:53
 
-Signals       :    10   RoutingGrid: 6 mil  Layers: 4
-Connections   :    45   predefined:  42 ( 4 Vias )
+Signals       :    29   RoutingGrid: 6 mil  Layers: 4
+Connections   :    90   predefined:  29 ( 16 Vias )
 
-Router memory :   3004720
+Router memory :   1962440
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:09  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:36  00:00:04  00:00:04  00:00:03  00:00:03  00:00:03
+Number of Ripups  :         0         1         0         0         0         0
+max. Level        :         0         1         0         0         0         0
+max. Total        :         0         2         0         0         0         0
 
-Routed            :         0         3         3         3         3         3         3         3         3         3         3         3         3         3
-Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-Resolution        :    93.3 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        17        61        61        61        61        61
+Vias              :         0        23        24        24        24        24
+Resolution        :    51.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 93.3% finished. Polygons may have fallen apart.
+Final             : 98.9% finished. Polygons may have fallen apart.

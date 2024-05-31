@@ -1,0 +1,15 @@
+.EHF-105-01-L-D-SM-LC :1 ;10 Position, .050&quot; Shrouded IDC Header with Ejectors
+EHF-105-01-XX-D-SM-LC
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10"
+*MXP 12
+*DFN EHF-105-01-L-D-SM-LC
+~!Mouser Part Number (200-EHF10501LDSMLC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Samtec/EHF-105-01-L-D-SM-LC?qs=iT52DjcXudvuSMtK3643sA%3D%3D)
+~!Manufacturer_Name (SAMTEC)
+~!Manufacturer_Part_Number (EHF-105-01-L-D-SM-LC)
+~!Link Datasheet (http://suddendocs.samtec.com/prints/ehf-1xx-01-x-d-xx-xx-xx-mkt.pdf)
+~!Height (-)
+EHF-105-01-L-D-SM-LC
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

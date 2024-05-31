@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SST26VF064B-104I_MF
+#/460269/122786/2.50/9/3/Integrated Circuit
+DEF SST26VF064B-104I_MF IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "SST26VF064B-104I_MF" 1450 200 50 H V L CNN
+F2 "SON127P600X500X80-9N-D" 1450 100 50 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561262" 1450 0 50 H I L CNN
+F4 "SST26VF064B-104I/MF, SPI Split Gate Flash Memory, 8M x 8 bit 64Mbit, 3ns, 2.7  3.6 V, 8-Pin, WDFN" 1450 -100 50 H I L CNN "Description"
+F5 "0.8" 1450 -200 50 H I L CNN "Height"
+F6 "579-ST26VF064B104IMF" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/SST26VF064B-104I-MF?qs=wzzOUr4NhYqR1%252B6K2JaweQ%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SST26VF064B-104I/MF" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CE# 1 0 0 200 R 50 50 0 0 P
+X SO/SIO1 2 0 -100 200 R 50 50 0 0 P
+X WP#/SIO2 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 P
+X EP 9 800 -800 200 U 50 50 0 0 P
+X VDD 8 1600 0 200 L 50 50 0 0 P
+X HOLD/SIO3 7 1600 -100 200 L 50 50 0 0 P
+X SCK 6 1600 -200 200 L 50 50 0 0 P
+X SI/SIO0 5 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

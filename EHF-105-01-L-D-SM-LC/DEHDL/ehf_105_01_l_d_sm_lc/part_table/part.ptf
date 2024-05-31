@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EHF_105_01_L_D_SM_LC'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "SAMTEC", "EHF-105-01-L-D-SM-LC" (!) = "", "EHF-105-01-XX-D-SM-LC", "Other", "200-EHF10501LDSMLC", "https://www.mouser.co.uk/ProductDetail/Samtec/EHF-105-01-L-D-SM-LC?qs=iT52DjcXudvuSMtK3643sA%3D%3D", "10 Position, .050&quot; Shrouded IDC Header with Ejectors", "http://suddendocs.samtec.com/prints/ehf-1xx-01-x-d-xx-xx-xx-mkt.pdf"
+END_PART
+
+END.

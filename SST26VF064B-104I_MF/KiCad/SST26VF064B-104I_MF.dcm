@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SST26VF064B-104I_MF
+D SST26VF064B-104I/MF, SPI Split Gate Flash Memory, 8M x 8 bit 64Mbit, 3ns, 2.7  3.6 V, 8-Pin, WDFN
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561262
+$ENDCMP
+#
+#End Doc Library

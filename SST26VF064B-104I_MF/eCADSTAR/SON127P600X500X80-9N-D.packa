@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SST26VF064B-104I_MF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "SON127P600X500X80-9N-D")
+        (spec "System")
+    )
+)
